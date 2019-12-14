@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class Recipe{
+    var title: String
+    var tag: String
+    var ingredients: String
+    var instruction: String
+    
+    
+    init(title: String, tag:String, ingredients:String, instruction: String){
+        self.title = title
+        self.tag = ""
+        self.ingredients = ""
+        self.instruction = ""
+           
+       }
+    
+}
