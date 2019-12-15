@@ -49,9 +49,9 @@ class RecipeDB{
         {
             if sqlite3_step(createTableStatement) == SQLITE_DONE
                 {
-                    print("meat table created.")
+                    print("Recipes table created.")
                 } else {
-                    print("meat table could not be created.")
+                    print("Recipes table could not be created.")
                 }
         } else {
                 print("CREATE TABLE statement could not be prepared.")
@@ -71,7 +71,7 @@ class RecipeDB{
                 let ingredients = String(describing: String(cString: sqlite3_column_text(queryStatement, 2)))
                 let instruction = String(describing: String(cString: sqlite3_column_text(queryStatement, 3)))
                 psns.append(Recipe(title: title, tag: tag, ingredients: ingredients, instruction: instruction))
-                //print("Query Result:")
+                    //print("Query Result:")
                 //print("\(title) | \(tag) | \(ingredients) | \(instruction)")
             }
         } else {

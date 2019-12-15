@@ -17,9 +17,9 @@ class Recipe{
     
     init(title: String, tag:String, ingredients:String, instruction: String){
         self.title = title
-        self.tag = ""
-        self.ingredients = ""
-        self.instruction = ""
+        self.tag = tag
+        self.ingredients = ingredients
+        self.instruction = instruction
            
        }
     

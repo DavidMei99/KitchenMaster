@@ -15,6 +15,8 @@
 		0EEB3E1D23A4A24C00440360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB3E1B23A4A24C00440360 /* LaunchScreen.storyboard */; };
 		0EEB3E2523A4A31300440360 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB3E2423A4A31300440360 /* Recipe.swift */; };
 		0EEB3E2723A4B81300440360 /* recipeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB3E2623A4B81300440360 /* recipeDB.swift */; };
+		0EEB3E2923A5B8CC00440360 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB3E2823A5B8CC00440360 /* TableCell.swift */; };
+		0EEB3E2B23A61E0E00440360 /* viewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB3E2A23A61E0E00440360 /* viewPage.swift */; };
 		22D638F9D67CCD0B2DF9A0D6 /* Pods_Kitchen_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB27DC9095CDA9D6E736DFA5 /* Pods_Kitchen_Master.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		0EEB3E1E23A4A24C00440360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEB3E2423A4A31300440360 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		0EEB3E2623A4B81300440360 /* recipeDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeDB.swift; sourceTree = "<group>"; };
+		0EEB3E2823A5B8CC00440360 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		0EEB3E2A23A61E0E00440360 /* viewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewPage.swift; sourceTree = "<group>"; };
 		1CAA8684373914F82FB9C828 /* Pods-Kitchen-Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen-Master.release.xcconfig"; path = "Target Support Files/Pods-Kitchen-Master/Pods-Kitchen-Master.release.xcconfig"; sourceTree = "<group>"; };
 		CB27DC9095CDA9D6E736DFA5 /* Pods_Kitchen_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitchen_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DB0A45983AC4D42671EA1D /* Pods-Kitchen-Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen-Master.debug.xcconfig"; path = "Target Support Files/Pods-Kitchen-Master/Pods-Kitchen-Master.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,12 +74,14 @@
 				0EEB3E1023A4A24800440360 /* AppDelegate.swift */,
 				0EEB3E1223A4A24800440360 /* SceneDelegate.swift */,
 				0EEB3E1423A4A24800440360 /* ViewController.swift */,
+				0EEB3E2A23A61E0E00440360 /* viewPage.swift */,
 				0EEB3E1623A4A24800440360 /* Main.storyboard */,
 				0EEB3E1923A4A24C00440360 /* Assets.xcassets */,
 				0EEB3E1B23A4A24C00440360 /* LaunchScreen.storyboard */,
 				0EEB3E1E23A4A24C00440360 /* Info.plist */,
 				0EEB3E2423A4A31300440360 /* Recipe.swift */,
 				0EEB3E2623A4B81300440360 /* recipeDB.swift */,
+				0EEB3E2823A5B8CC00440360 /* TableCell.swift */,
 			);
 			path = "Kitchen-Master";
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EEB3E2923A5B8CC00440360 /* TableCell.swift in Sources */,
 				0EEB3E1523A4A24800440360 /* ViewController.swift in Sources */,
+				0EEB3E2B23A61E0E00440360 /* viewPage.swift in Sources */,
 				0EEB3E2723A4B81300440360 /* recipeDB.swift in Sources */,
 				0EEB3E1123A4A24800440360 /* AppDelegate.swift in Sources */,
 				0EEB3E1323A4A24800440360 /* SceneDelegate.swift in Sources */,
