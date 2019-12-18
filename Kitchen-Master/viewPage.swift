@@ -26,7 +26,6 @@ class viewPage: UIViewController {
         super.viewDidLoad()
         titleLabel.text = titletext
         ingredLabel.text = ingredtext
-        print(instext)
         insLabel.text = instext
         // Do any additional setup after loading the view.
     }
